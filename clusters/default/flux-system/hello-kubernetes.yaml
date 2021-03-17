@@ -15,7 +15,9 @@ spec:
       interval: 1m
   targetNamespace: default
   values:
-    message: Hello from JLE Git now running variable ...!
+    message: This is new one
+    image:
+      repository: not-exists
   valuesFrom:
   - kind: ConfigMap
     name: myconfig
