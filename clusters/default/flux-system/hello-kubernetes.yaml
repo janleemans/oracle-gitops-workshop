@@ -15,4 +15,4 @@ spec:
       interval: 1m
   targetNamespace: default
   values:
-    message: Hello from GitHub version 2!
+    message: Hello from JLE Git version 2!
