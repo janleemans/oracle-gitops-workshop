@@ -16,8 +16,6 @@ spec:
   targetNamespace: default
   values:
     message: This is new one 2nd
-    image:
-      repository: not-exists
   upgrade:
       remediation:
           remediateLastFailure: true
