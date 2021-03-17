@@ -16,3 +16,6 @@ spec:
   targetNamespace: default
   values:
     message: Hello from JLE Git version 2!
+  valuesFrom:
+  - kind: ConfigMap
+    name: myconfig
